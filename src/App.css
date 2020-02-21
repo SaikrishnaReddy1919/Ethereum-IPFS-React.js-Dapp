@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color:#29323c;
+  height: 150px;
+  padding: 40px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20%;
+  display: flex;
+  border-radius: 5px;
+}
+.App-header h1{
+  flex: 2;
+}
+.App-header img{
+  width: 100px;
+  height: 100px;
+  border-color: blue;
+  border-radius: 50px;
+  
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+/*some css I added*/
+input[type="file"] {
+    display: inline-block;
+}
+
+.table {
+      border-collapse:unset;
+      background-color:whitesmoke;
+      max-width: 90%;
+      margin: auto;
+      color:black;
+      
+}
+
+
+.table th {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.lastdiv{
+  margin: auto;
+  max-width: 90%;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+/*end of my css*/
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
